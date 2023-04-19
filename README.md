@@ -1,9 +1,11 @@
 
 # Rapport
 
-**Skriv din rapport här!**
-
-_Du kan ta bort all text som finns sedan tidigare_.
+After forking and cloning the project, I added a LinearLayout where I first made the layout_height
+wrap the content. Then I added 4 widgets, 2 buttons and 2 texts for the buttons. Then I changed the
+layout_height and layout_width to match_parent instead and then added a top margin. I then changed
+the positions of the widgets. After reading the assignment instructions again I noticed that I didn't
+add 3 different types of widgets. So I finished by adding a checkbox widget.
 
 ## Följande grundsyn gäller dugga-svar:
 
@@ -16,19 +18,13 @@ _Du kan ta bort all text som finns sedan tidigare_.
 Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
 
 ```
-function errorCallback(error) {
-    switch(error.code) {
-        case error.PERMISSION_DENIED:
-            // Geolocation API stöds inte, gör något
-            break;
-        case error.POSITION_UNAVAILABLE:
-            // Misslyckat positionsanrop, gör något
-            break;
-        case error.UNKNOWN_ERROR:
-            // Okänt fel, gör något
-            break;
-    }
-}
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-42dp">
 ```
 
 Bilder läggs i samma mapp som markdown-filen.
