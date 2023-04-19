@@ -23,12 +23,6 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="-42dp">
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button 1" />
-
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
@@ -36,16 +30,22 @@
             android:text="Text for button 1" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button 2" />
+            android:text="Button 1" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Text for button 2" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button 2" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
