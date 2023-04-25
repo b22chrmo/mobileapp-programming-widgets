@@ -30,6 +30,7 @@ Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad d�
 Bilder läggs i samma mapp som markdown-filen.
 
 ![](android.png)
+![](Screenshot_20230425_152633.png)
 
 Läs gärna:
 
